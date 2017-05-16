@@ -37,7 +37,11 @@ const App = {
 
     },
     handlePromote(event) {
-        console.log(hi)
+        //console.log(hi)
+        const form = event.target
+        node = form.parentNode
+
+        node.style.border = "thin dotted red"
     },
 }
 
