@@ -47,14 +47,9 @@ const App = {
 
         const form = event.target
         node = form.parentNode
-         // define our colors
-        //var colors = ["#CCCCCC","#333333","#990099"];
-        // get a random color from list
-        //var rand = Math.floor(Math.random()*colors.length);
-        // set random color as borderColor
         let colors = "#" + Math.floor(Math.random() * 0xFFFFFF).toString(16)
-        node.style.border = colors
-        console.log(node.style.border)
+        node.style.border = "thick solid " + colors
+        //console.log(node.style.border)
     },
 }
 
