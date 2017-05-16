@@ -20,8 +20,8 @@ const App = {
         const probutton = document.createElement('button')
         delbutton.innerHTML = "Delete"
         probutton.innerHTML = "Promote"
-        delbutton.style.marginLeft = '5px'
-        probutton.style.marginLeft = '5px'
+        delbutton.style.marginLeft = '20px'
+        probutton.style.marginLeft = '20px'
 
         li.appendChild(delbutton)
         li.appendChild(probutton)
